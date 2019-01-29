@@ -31,4 +31,17 @@ body {
 .movie-image {
     /* height: 200px; */
     width: 160px;
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-play-circle-o {
+    color: #ffffff;
+    font-size: 48px;
 }
