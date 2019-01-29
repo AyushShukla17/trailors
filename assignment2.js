@@ -12,6 +12,7 @@ $(document).ready(function () {
                 <div class="movie-box">
                 <div class="movie-image">
                 <img src="https://in.bmscdn.com/events/moviecard/${movieData[property]["EventCode"]}.jpg" alt="${movieData[property]["EventTitle"]}" height="200" width="160"></img>
+                <div class="release-date">1 Jan</div>
                 <div class="centered"><i class="fa fa-play-circle-o"></i></div>
                 </div>
                 <div class="movie-name">${movieData[property]["EventName"]}</div>
